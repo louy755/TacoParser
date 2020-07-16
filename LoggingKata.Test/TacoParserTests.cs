@@ -5,11 +5,10 @@ namespace LoggingKata.Test
 {
     public class TacoParserTests
     {
+        // TODO: Complete Something, if anything
         [Fact]
-        public void ShouldDoSomething()
+        public void ParseIsNotNull()
         {
-            // TODO: Complete Something, if anything
-
             var tacoParser = new TacoParser();
 
             var actual = tacoParser.Parse("34.073638, -84.677017, Taco Bell Acwort...");
@@ -43,6 +42,7 @@ namespace LoggingKata.Test
 
             Assert.Equal(expected, actual.Location.Latitude);
         }
+
         // ConvertToMiles Test
         [Theory]
         [InlineData(160.934, 0.1)]
