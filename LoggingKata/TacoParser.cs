@@ -21,7 +21,7 @@ namespace LoggingKata
             if (cells.Length < 3)
             {
                 // Log that and return null
-                logger.LogError("Info is less then the require Please try again later", exception: null);
+                logger.LogInfo("Location is less then the require Please try again later!");
                 // Do not fail if one record parsing fails, return null
                 return null; // TODO Implement
             }

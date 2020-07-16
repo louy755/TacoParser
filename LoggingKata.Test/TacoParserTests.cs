@@ -45,6 +45,8 @@ namespace LoggingKata.Test
         }
         // ConvertToMiles Test
         [Theory]
+        [InlineData(160.934, 0.1)]
+        [InlineData(804.672, 0.5)]
         [InlineData(1609.34, 1)]
         [InlineData(3218.68, 2)]
         [InlineData(4023.36, 2.5)]
